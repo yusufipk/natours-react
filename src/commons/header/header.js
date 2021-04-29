@@ -1,5 +1,6 @@
 import "./header.css";
 import logoWhite from "../../commons/images/logo-white.png";
+import Button from "../../components/button/button";
 
 function Header() {
   return (
@@ -12,6 +13,7 @@ function Header() {
           <span className="heading-primary-main">Outdoors</span>
           <span className="heading-primary-sub">is where life happens</span>
         </h1>
+        <Button text={"Discover our tours"} />
       </div>
     </header>
   );
