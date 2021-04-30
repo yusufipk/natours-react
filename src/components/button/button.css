@@ -6,6 +6,11 @@
   display: inline-block;
   border-radius: 100px;
   transition: all 0.2s;
+  position: relative;
+}
+
+.move-in-bottom {
+  animation: moveInBottom 1s ease-out;
 }
 
 .btn:hover {
@@ -21,4 +26,42 @@
 .btn-white {
   background-color: #fff;
   color: #777;
+}
+
+.btn::after {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: white;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }

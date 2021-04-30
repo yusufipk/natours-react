@@ -13,7 +13,7 @@ function Header() {
           <span className="heading-primary-main">Outdoors</span>
           <span className="heading-primary-sub">is where life happens</span>
         </h1>
-        <Button text={"Discover our tours"} />
+        <Button animationName={"move-in-bottom"} text={"Discover our tours"} />
       </div>
     </header>
   );

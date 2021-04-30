@@ -56,6 +56,12 @@
   animation: moveInRight 1s ease-out;
 }
 
+#header-button {
+  animation: moveInBottom 1s ease-out;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -80,6 +86,18 @@
 
   80% {
     transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
   }
 
   100% {
