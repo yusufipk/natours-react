@@ -1,16 +1,17 @@
 import "./button.css";
 
 function Button(props) {
+  const { text, animationName, link } = props;
   return (
     <a
       href="#"
       className={
-        props.animationName === "move-in-bottom"
+        animationName === "move-in-bottom"
           ? "btn btn-white move-in-bottom"
           : "btn btn-white"
       }
     >
-      {props.text}
+      {text}
     </a>
   );
 }

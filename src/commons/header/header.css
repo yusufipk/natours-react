@@ -22,12 +22,12 @@
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4rem;
+  left: 4rem;
 }
 
 .logo {
-  height: 35px;
+  height: 3.5rem;
 }
 
 .heading-primary {
@@ -35,41 +35,35 @@
   text-transform: uppercase;
 
   backface-visibility: hidden;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 .heading-primary-main {
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 3.5rem;
 
   animation: moveInLeft 1s ease-out;
 }
 
 .heading-primary-sub {
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 17.4px;
+  letter-spacing: 1.75rem;
 
   animation: moveInRight 1s ease-out;
-}
-
-#header-button {
-  animation: moveInBottom 1s ease-out;
-  animation-delay: 2s;
-  opacity: 0;
 }
 
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
 
   80% {
-    transform: translateX(10px);
+    transform: translateX(1rem);
   }
 
   100% {
@@ -81,23 +75,11 @@
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
 
   80% {
-    transform: translateX(-10px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(100px);
+    transform: translateX(-1rem);
   }
 
   100% {
