@@ -1,5 +1,3 @@
-import "./button.css";
-
 function Button(props) {
   const { text, animationName, link } = props;
   return (

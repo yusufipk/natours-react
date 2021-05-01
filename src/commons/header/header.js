@@ -1,4 +1,3 @@
-import "./header.css";
 import logoWhite from "../../commons/images/logo-white.png";
 import Button from "../../components/button/button";
 
