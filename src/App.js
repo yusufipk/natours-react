@@ -2,6 +2,7 @@ import "./App.scss";
 import About from "./commons/about-section/about";
 import Feature from "./commons/feature-section/feature";
 import Header from "./commons/header/header.jsx";
+import Tours from "./commons/tours-section/tours";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <About />
       <Feature />
+      <Tours />
     </div>
   );
 }

@@ -3,6 +3,12 @@ $color-primary: #55c57a;
 $color-primary-light: #55c57a;
 $color-primary-dark: #28b485;
 
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
 $color-grey-light-1: #f7f7f7;
 
 $color-grey-dark: #777;
@@ -16,3 +22,8 @@ $default-font-size: 1.6rem;
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
+
+// OTHER
+
+$shadow-default: 0 1.5rem 4rem rgba($color-black, 0.15);
+$shadow-light: 0.5rem 1rem 2rem rgba($color-black, 0.2);
