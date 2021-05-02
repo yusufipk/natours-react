@@ -1,4 +1,4 @@
-function Button(props) {
+function ButtonMain(props) {
   const { text, animationName, link } = props;
   return (
     <a
@@ -14,4 +14,4 @@ function Button(props) {
   );
 }
 
-export default Button;
+export default ButtonMain;
