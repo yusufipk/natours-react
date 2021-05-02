@@ -1,4 +1,7 @@
 import ButtonSecondary from "../../components/button/button-secondary";
+import nat1Large from "../../commons/images/nat-1-large.jpg";
+import nat2Large from "../../commons/images/nat-2-large.jpg";
+import nat3Large from "../../commons/images/nat-3-large.jpg";
 
 function About() {
   return (
@@ -31,7 +34,25 @@ function About() {
 
             <ButtonSecondary text={"Learn More ➯"} />
           </div>
-          <div className="col-1-of-2">Image</div>
+          <div className="col-1-of-2">
+            <div className="composition">
+              <img
+                src={nat1Large}
+                alt="Photo 1"
+                className="composition__photo composition__photo--p1"
+              />
+              <img
+                src={nat2Large}
+                alt="Photo 2"
+                className="composition__photo composition__photo--p2"
+              />
+              <img
+                src={nat3Large}
+                alt="Photo 3"
+                className="composition__photo composition__photo--p3"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </main>
