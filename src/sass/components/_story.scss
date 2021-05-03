@@ -2,7 +2,7 @@
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
-  background-color: $color-white;
+  background-color: rgba($color-white, 60%);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -40,6 +40,7 @@
     text-align: center;
     opacity: 0;
     transition: all 0.5s;
+    backface-visibility: hidden;
   }
 
   &:hover &__caption {
