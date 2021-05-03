@@ -38,17 +38,17 @@ function About() {
             <div className="composition">
               <img
                 src={nat1Large}
-                alt="Photo 1"
+                alt="Nature 1"
                 className="composition__photo composition__photo--p1"
               />
               <img
                 src={nat2Large}
-                alt="Photo 2"
+                alt="Nature 2"
                 className="composition__photo composition__photo--p2"
               />
               <img
                 src={nat3Large}
-                alt="Photo 3"
+                alt="Nature 3"
                 className="composition__photo composition__photo--p3"
               />
             </div>

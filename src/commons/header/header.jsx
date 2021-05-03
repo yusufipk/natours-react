@@ -13,7 +13,7 @@ function Header() {
           <span className="heading-primary--sub">is where life happens</span>
         </h1>
         <ButtonMain
-          animationName={"move-in--bottom"}
+          feature={"btn btn--white move-in--bottom"}
           text={"Discover our tours"}
         />
       </div>

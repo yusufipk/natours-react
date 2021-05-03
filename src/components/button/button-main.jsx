@@ -1,14 +1,7 @@
 function ButtonMain(props) {
-  const { text, animationName, link } = props;
+  const { text, link, feature } = props;
   return (
-    <a
-      href="#"
-      className={
-        animationName === "move-in--bottom"
-          ? "btn btn--white move-in--bottom"
-          : "btn btn--white"
-      }
-    >
+    <a href="#" className={feature}>
       {text}
     </a>
   );
