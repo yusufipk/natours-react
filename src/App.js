@@ -1,5 +1,6 @@
 import "./App.scss";
 import About from "./commons/about-section/about";
+import Booking from "./commons/booking-section/booking";
 import Feature from "./commons/feature-section/feature";
 import Header from "./commons/header/header.jsx";
 import Stories from "./commons/stories-section/stories";
@@ -13,6 +14,7 @@ function App() {
       <Feature />
       <Tours />
       <Stories />
+      <Booking />
     </div>
   );
 }
