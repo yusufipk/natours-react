@@ -41,7 +41,12 @@ function Footer() {
         <div className="col-1-of-2">
           <p className="footer__copyright">
             Design by Jonas Schmedtmann. Coded by{" "}
-            <a href="#" className="footer__link">
+            <a
+              href="https://github.com/yusufipk/natour"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer__link"
+            >
               Yusuf İpek
             </a>
             . You are allowed to use this webpage for personal and commercial
