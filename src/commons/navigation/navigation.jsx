@@ -7,7 +7,8 @@ function Navigation() {
         id="navi-toggle"
       />
       <label for="navi-toggle" className="navigation__button">
-        Menu
+        <i className="fa fa-bars navigation__button--bars"></i>
+        <i className="fa fa-times navigation__button--times"></i>
       </label>
 
       <div className="navigation__background">&nbsp;</div>

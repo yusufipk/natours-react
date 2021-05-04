@@ -12,6 +12,19 @@
     right: 6rem;
     border-radius: 50%;
     z-index: 2000;
+    box-shadow: $shadow-light;
+    cursor: pointer;
+
+    &--bars,
+    &--times {
+      @include center-horizontal-vertical;
+      font-size: 3.5rem;
+      text-align: center;
+      transition: opacity 0.2s;
+    }
+    &--times {
+      opacity: 0;
+    }
   }
 
   &__background {
@@ -26,8 +39,7 @@
       $color-primary-dark
     );
     z-index: 1000;
-
-    transform: scale(100);
+    transition: all 0.8s cubic-bezier(0.85, 0, 0.15, 1);
   }
 
   &__nav {
@@ -35,14 +47,19 @@
     width: 100%;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 1500;
+
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
   }
 
   &__list {
     @include center-horizontal-vertical;
     list-style: none;
     text-align: center;
+    width: 100%;
   }
 
   &__item {
@@ -80,5 +97,23 @@
       color: $color-primary;
       transform: translateX(1rem);
     }
+  }
+
+  &__checkbox:checked ~ &__background {
+    transform: scale(80);
+  }
+
+  &__checkbox:checked ~ &__nav {
+    opacity: 1;
+    width: 100%;
+  }
+
+  //ICON
+  &__checkbox:checked ~ &__button &__button--times {
+    opacity: 1;
+  }
+
+  &__checkbox:checked ~ &__button &__button--bars {
+    opacity: 0;
   }
 }
