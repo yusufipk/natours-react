@@ -1,5 +1,3 @@
-import ButtonMain from "../../components/button/button-main";
-
 function Tours() {
   return (
     <section className="section-tours">
@@ -33,7 +31,9 @@ function Tours() {
                   <p className="card__price-only">Only</p>
                   <p className="card__price-value">$297</p>
                 </div>
-                <ButtonMain feature={"btn btn--white"} text={"Book now!"} />
+                <a href="#" className="btn btn--white">
+                  Book now!
+                </a>
               </div>
             </div>
           </div>
@@ -63,7 +63,9 @@ function Tours() {
                   <p className="card__price-only">Only</p>
                   <p className="card__price-value">$497</p>
                 </div>
-                <ButtonMain feature={"btn btn--white"} text={"Book now!"} />
+                <a href="#" className="btn btn--white">
+                  Book now!
+                </a>
               </div>
             </div>
           </div>
@@ -93,7 +95,9 @@ function Tours() {
                   <p className="card__price-only">Only</p>
                   <p className="card__price-value">$897</p>
                 </div>
-                <ButtonMain feature={"btn btn--white"} text={"Book now!"} />
+                <a href="#" className="btn btn--white">
+                  Book now!
+                </a>
               </div>
             </div>
           </div>
@@ -101,7 +105,9 @@ function Tours() {
       </div>
 
       <div className="u-center-text u-margin-top-huge">
-        <ButtonMain feature={"btn btn--green"} text={"Discover all tours"} />
+        <a href="#" className="btn btn--white">
+          Discover all tours!
+        </a>
       </div>
     </section>
   );

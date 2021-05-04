@@ -1,4 +1,3 @@
-import ButtonSecondary from "../../components/button/button-secondary";
 import nat8 from "../images/nat-8.jpg";
 import nat9 from "../images/nat-9.jpg";
 import bgmp4 from "../images/video.mp4";
@@ -58,7 +57,9 @@ function Stories() {
       </div>
 
       <div className="u-center-text u-margin-top-huge">
-        <ButtonSecondary text={"Read all stories ➯"} />
+        <a href="#" className="btn-text">
+          Read all stories ➯
+        </a>
       </div>
     </section>
   );

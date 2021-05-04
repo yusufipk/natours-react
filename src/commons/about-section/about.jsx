@@ -1,4 +1,3 @@
-import ButtonSecondary from "../../components/button/button-secondary";
 import nat1Large from "../../commons/images/nat-1-large.jpg";
 import nat2Large from "../../commons/images/nat-2-large.jpg";
 import nat3Large from "../../commons/images/nat-3-large.jpg";
@@ -31,8 +30,9 @@ function About() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
               perferendis esse minima provident neque
             </p>
-
-            <ButtonSecondary text={"Learn More ➯"} />
+            <a href="#" className="btn-text">
+              Learn More ➯
+            </a>
           </div>
           <div className="col-1-of-2">
             <div className="composition">

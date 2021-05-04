@@ -1,5 +1,4 @@
 import logoWhite from "../../commons/images/logo-white.png";
-import ButtonMain from "../../components/button/button-main";
 
 function Header() {
   return (
@@ -12,10 +11,7 @@ function Header() {
           <span className="heading-primary--main">Outdoors</span>
           <span className="heading-primary--sub">is where life happens</span>
         </h1>
-        <ButtonMain
-          feature={"btn btn--white move-in--bottom"}
-          text={"Discover our tours"}
-        />
+        <a className="btn btn--white move-in--bottom">Discover our tours</a>
       </div>
     </header>
   );
