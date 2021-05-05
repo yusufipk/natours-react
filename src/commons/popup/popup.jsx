@@ -4,13 +4,16 @@ import nat9 from "../images/nat-9.jpg";
 function Popup() {
   return (
     <div>
-      <div className="popup">
+      <div className="popup" id="popup">
         <div className="popup__content">
           <div className="popup__left">
             <img src={nat8} alt="Tour photo" className="popup__img" />
             <img src={nat9} alt="Tour photo" className="popup__img" />
           </div>
           <div className="popup__right">
+            <a href="#section-tours" className="popup__close">
+              &times;
+            </a>
             <h2 className="heading-secondary u-margin-bottom-small">
               Start booking now
             </h2>
