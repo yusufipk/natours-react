@@ -25,6 +25,15 @@
     &--times {
       opacity: 0;
     }
+
+    @include respond(tab-port) {
+      top: 4rem;
+      right: 4rem;
+    }
+    @include respond(phone) {
+      top: 3rem;
+      right: 3rem;
+    }
   }
 
   &__background {
@@ -40,6 +49,16 @@
     );
     z-index: 1000;
     transition: all 0.8s cubic-bezier(0.85, 0, 0.15, 1);
+
+    @include respond(tab-port) {
+      top: 4.5rem;
+      right: 4rem;
+    }
+
+    @include respond(phone) {
+      top: 3.5rem;
+      right: 3rem;
+    }
   }
 
   &__nav {
@@ -50,6 +69,7 @@
     left: 0;
     z-index: 1500;
 
+    visibility: hidden;
     opacity: 0;
     width: 0;
     transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
@@ -104,6 +124,7 @@
   }
 
   &__checkbox:checked ~ &__nav {
+    visibility: visible;
     opacity: 1;
     width: 100%;
   }
