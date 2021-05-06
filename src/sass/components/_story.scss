@@ -30,6 +30,11 @@
 
     @include respond(phone) {
       transform: translateX(-3rem) skewX(0);
+      shape-outside: none;
+      clip-path: circle(50%);
+      left: 22%;
+      margin-bottom: 1rem;
+      margin-top: -2rem;
     }
   }
 
@@ -44,6 +49,7 @@
 
     @include respond(phone) {
       transform: skewX(0);
+      display: inline-block;
     }
   }
 

@@ -1,10 +1,23 @@
 import logoLarge from "../images/logo-green-2x.png";
+import logoSmall from "../images/logo-green-1x.png";
+import logoGreenSmall from "../images/logo-green-small-1x.png";
+import logoGreenLarge from "../images/logo-green-small-2x.png";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <img src={logoLarge} alt="Large logo" className="footer__logo" />
+        <picture className="footer__logo">
+          <source
+            srcSet={`${logoGreenSmall} 1x, ${logoGreenLarge} 2x`}
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcSet={`${logoSmall} 1x, ${logoLarge} 2x`}
+            alt="Large logo"
+            src={logoLarge}
+          />
+        </picture>
       </div>
       <div className="row">
         <div className="col-1-of-2">
