@@ -17,6 +17,7 @@
 
   @include respond(phone) {
     transform: skewX(0);
+    padding-left: 4rem;
   }
 
   &__shape {
@@ -24,6 +25,7 @@
     height: 15rem;
     float: left;
     shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
@@ -32,9 +34,10 @@
       transform: translateX(-3rem) skewX(0);
       shape-outside: none;
       clip-path: circle(50%);
-      left: 22%;
       margin-bottom: 1rem;
       margin-top: -2rem;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 

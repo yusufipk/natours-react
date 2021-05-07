@@ -40,7 +40,7 @@ function About() {
           <div className="composition">
             <img
               srcSet={`${nat1} 300w, ${nat1Large} 1000w`}
-              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+              sizes="(max-width: 56.25em) 20vw, (max-width: 600px) 30vw, 300px"
               alt="Photo 1"
               className="composition__photo composition__photo--p1"
               src={nat1Large}
@@ -48,7 +48,7 @@ function About() {
 
             <img
               srcSet={`${nat2} 300w, ${nat2Large} 1000w`}
-              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+              sizes="(max-width: 56.25em) 20vw, (max-width: 600px) 30vw, 300px"
               alt="Photo 2"
               className="composition__photo composition__photo--p2"
               src={nat2Large}
@@ -56,7 +56,7 @@ function About() {
 
             <img
               srcSet={`${nat3} 300w, ${nat3Large} 1000w`}
-              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+              sizes="(max-width: 56.25em) 20vw, (max-width: 600px) 30vw, 300px"
               alt="Photo 3"
               className="composition__photo composition__photo--p3"
               src={nat3Large}
