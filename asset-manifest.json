@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/natours-react/static/css/main.0212284f.chunk.css",
+    "main.js": "/natours-react/static/js/main.829c210f.chunk.js",
+    "main.js.map": "/natours-react/static/js/main.829c210f.chunk.js.map",
+    "runtime-main.js": "/natours-react/static/js/runtime-main.4196ee48.js",
+    "runtime-main.js.map": "/natours-react/static/js/runtime-main.4196ee48.js.map",
+    "static/css/2.f4394b11.chunk.css": "/natours-react/static/css/2.f4394b11.chunk.css",
+    "static/js/2.4b7ad024.chunk.js": "/natours-react/static/js/2.4b7ad024.chunk.js",
+    "static/js/2.4b7ad024.chunk.js.map": "/natours-react/static/js/2.4b7ad024.chunk.js.map",
+    "static/js/3.affe6223.chunk.js": "/natours-react/static/js/3.affe6223.chunk.js",
+    "static/js/3.affe6223.chunk.js.map": "/natours-react/static/js/3.affe6223.chunk.js.map",
+    "index.html": "/natours-react/index.html",
+    "static/css/2.f4394b11.chunk.css.map": "/natours-react/static/css/2.f4394b11.chunk.css.map",
+    "static/css/main.0212284f.chunk.css.map": "/natours-react/static/css/main.0212284f.chunk.css.map",
+    "static/js/2.4b7ad024.chunk.js.LICENSE.txt": "/natours-react/static/js/2.4b7ad024.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/natours-react/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/App.scss": "/natours-react/static/media/nat-7.167e44e4.jpg",
+    "static/media/logo-green-1x.cf3c47ee.png": "/natours-react/static/media/logo-green-1x.cf3c47ee.png",
+    "static/media/logo-green-2x.76177450.png": "/natours-react/static/media/logo-green-2x.76177450.png",
+    "static/media/logo-green-small-2x.de221e6e.png": "/natours-react/static/media/logo-green-small-2x.de221e6e.png",
+    "static/media/logo-white.6c89a3f0.png": "/natours-react/static/media/logo-white.6c89a3f0.png",
+    "static/media/nat-1-large.a1c1cbdb.jpg": "/natours-react/static/media/nat-1-large.a1c1cbdb.jpg",
+    "static/media/nat-1.0e0a34b9.jpg": "/natours-react/static/media/nat-1.0e0a34b9.jpg",
+    "static/media/nat-2-large.cbc0cd9f.jpg": "/natours-react/static/media/nat-2-large.cbc0cd9f.jpg",
+    "static/media/nat-2.e2a50751.jpg": "/natours-react/static/media/nat-2.e2a50751.jpg",
+    "static/media/nat-3-large.da53b7a0.jpg": "/natours-react/static/media/nat-3-large.da53b7a0.jpg",
+    "static/media/nat-3.5eff150a.jpg": "/natours-react/static/media/nat-3.5eff150a.jpg",
+    "static/media/nat-8.10678031.jpg": "/natours-react/static/media/nat-8.10678031.jpg",
+    "static/media/nat-9.b7a3e52c.jpg": "/natours-react/static/media/nat-9.b7a3e52c.jpg",
+    "static/media/video.697d9c04.mp4": "/natours-react/static/media/video.697d9c04.mp4",
+    "static/media/video.defbf1bb.webm": "/natours-react/static/media/video.defbf1bb.webm"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4196ee48.js",
+    "static/css/2.f4394b11.chunk.css",
+    "static/js/2.4b7ad024.chunk.js",
+    "static/css/main.0212284f.chunk.css",
+    "static/js/main.829c210f.chunk.js"
+  ]
+}
