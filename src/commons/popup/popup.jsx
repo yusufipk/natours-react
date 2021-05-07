@@ -5,10 +5,13 @@ function Popup() {
   return (
     <div>
       <div className="popup" id="popup">
+        <a className="popup__blocker" href="#section-tours">
+          &nbsp;
+        </a>
         <div className="popup__content">
           <div className="popup__left">
-            <img src={nat8} alt="Tour photo" className="popup__img" />
-            <img src={nat9} alt="Tour photo" className="popup__img" />
+            <img src={nat8} alt="A guy on the tour" className="popup__img" />
+            <img src={nat9} alt="A lady on the tour" className="popup__img" />
           </div>
           <div className="popup__right">
             <a href="#section-tours" className="popup__close">

@@ -11,7 +11,9 @@ function Header() {
           <span className="heading-primary--main">Outdoors</span>
           <span className="heading-primary--sub">is where life happens</span>
         </h1>
-        <a className="btn btn--white move-in--bottom">Discover our tours</a>
+        <a href="#section-tours" className="btn btn--white move-in--bottom">
+          Discover our tours
+        </a>
       </div>
     </header>
   );

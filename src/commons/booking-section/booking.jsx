@@ -2,7 +2,7 @@ import Form from "../form/form";
 
 function Booking() {
   return (
-    <section className="section-book">
+    <section className="section-book" id="section-book">
       <div className="row">
         <div className="book">
           <div className="book__form">

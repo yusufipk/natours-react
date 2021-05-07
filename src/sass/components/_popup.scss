@@ -10,6 +10,18 @@
   visibility: hidden;
   transition: all 0.3s;
 
+  &__blocker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: " ";
+    background: rgba(0, 0, 0, 0.5);
+    cursor: default;
+    opacity: 0;
+  }
+
   @supports (-webkit-backdrop-filter: blur(10px)) or
     (backdrop-filter: blur(10px)) {
     -webkit-backdrop-filter: blur(10px);

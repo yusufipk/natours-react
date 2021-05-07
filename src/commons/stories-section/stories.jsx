@@ -5,7 +5,7 @@ import bgwebm from "../images/video.webm";
 
 function Stories() {
   return (
-    <section className="section-stories">
+    <section className="section-stories" id="section-stories">
       <div className="bg-video">
         <video className="bg-video__content" autoPlay muted loop>
           <source src={bgmp4} type="video/mp4" />

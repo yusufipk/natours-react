@@ -7,7 +7,7 @@ import nat3 from "../../commons/images/nat-3.jpg";
 
 function About() {
   return (
-    <section className="section-about">
+    <section className="section-about" id="section-about">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           Exciting tours for adventurous people
@@ -32,7 +32,7 @@ function About() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             perferendis esse minima provident neque
           </p>
-          <a href="#" className="btn-text">
+          <a href="#section-tours" className="btn-text">
             Learn More ➯
           </a>
         </div>
@@ -41,7 +41,7 @@ function About() {
             <img
               srcSet={`${nat1} 300w, ${nat1Large} 1000w`}
               sizes="(max-width: 56.25em) 20vw, (max-width: 600px) 30vw, 300px"
-              alt="Photo 1"
+              alt="Nature 1"
               className="composition__photo composition__photo--p1"
               src={nat1Large}
             />
@@ -49,7 +49,7 @@ function About() {
             <img
               srcSet={`${nat2} 300w, ${nat2Large} 1000w`}
               sizes="(max-width: 56.25em) 20vw, (max-width: 600px) 30vw, 300px"
-              alt="Photo 2"
+              alt="Nature 2"
               className="composition__photo composition__photo--p2"
               src={nat2Large}
             />
@@ -57,7 +57,7 @@ function About() {
             <img
               srcSet={`${nat3} 300w, ${nat3Large} 1000w`}
               sizes="(max-width: 56.25em) 20vw, (max-width: 600px) 30vw, 300px"
-              alt="Photo 3"
+              alt="Nature 3"
               className="composition__photo composition__photo--p3"
               src={nat3Large}
             />

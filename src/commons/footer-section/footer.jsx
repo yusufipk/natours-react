@@ -55,7 +55,7 @@ function Footer() {
           <p className="footer__copyright">
             Design by Jonas Schmedtmann. Coded by{" "}
             <a
-              href="https://github.com/yusufipk/natour"
+              href="https://yusufipek.me"
               target="_blank"
               rel="noopener noreferrer"
               className="footer__link"
